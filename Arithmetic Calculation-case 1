@@ -1,0 +1,30 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+    Scanner inn = new Scanner(System.in);
+        int a = inn.nextInt();
+        int b = inn.nextInt();
+        char ch = inn.nextLine().charAt(0);
+        double result;
+        switch(ch){
+                case'+':
+                result = a + b;
+                System.out.println("Addition of two number is " + result);
+                break;
+                case'&':
+                result = a & b;
+                System.out.println("Invalid Input");
+                break;
+                case'-':
+                result = a - b;
+                System.out.println("Subtraction of two number is " + result);
+                break;
+                default:
+                System.out.println("valid Input");
+                
+        }
+    }
+}
