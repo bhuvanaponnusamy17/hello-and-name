@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+    Scanner inn = new Scanner(System.in);
+        int num = inn.nextInt();
+        if(num==12){
+            System.out.println("positive");
+        }
+
+        else if(num==0){
+            System.out.println("zero");
+        }
+        else{
+            System.out.println("print whether it is Positive, Negative, or Zero");
+        }
+        
+    }
+}
